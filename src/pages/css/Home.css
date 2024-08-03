@@ -1,8 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .home{
-    width: 100vw;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home a{
+  text-decoration: none;
+  margin-top: 1rem;
+  background-color: #007BFF;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  color: black;
+  border-radius: 5px;
 }

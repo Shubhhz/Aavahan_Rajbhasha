@@ -1,12 +1,14 @@
-import React from 'react'
-import './css/Home.css'
+// pages/Home.jsx
+import React from 'react';
+import './css/Home.css';
 
-const Home = () => {
+function Home() {
   return (
     <div className="home">
-     <h1>Rajbhasha Aavahan page</h1>
+      <h1>Rajbhasha Home Page</h1>
+      <a href="/event">Go to Event Page</a>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
